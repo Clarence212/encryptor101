@@ -27,3 +27,6 @@ This project demonstrates the basic concept of ransomware by encrypting files us
 
 ## Disclaimer
 This repository is for learning and research purposes only. **By using this code, you agree that you will not use it for malicious purposes** or to harm others' data or systems.
+
+## License
+This is licensed under Apache 2.0

